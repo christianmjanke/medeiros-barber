@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styleAgenda.css" />
+    <link rel="stylesheet" href="./index.html" />
+    <script src="index.js" defer></script>
+    <title>Agendamento</title>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="geral2">
+      <div id="geral">
+        <div class="container-header">
+          <div class="text-header">
+            <div class="item"><h1>MEDEIROS-BARBER</h1></div>
+            <div class="item"><h1>FAÇA SEU AGENDAMENTO</h1></div>
+          </div>
+          <div class="logo-header">
+            <img src="./img/logo.svg" alt="logo da barbearia" />
+          </div>
+        </div>
+        <div class="agendamento">
+          <h1>Vamos começar seu agendamento...</h1>
+        </div>
+        <br />
+        <!-- main-agendamento -->
+        <form id="orderForm">
+          <div class="names">
+            <label for="name" class="nameLabel">Qual seu nome?</label>
+            <input required type="text" name="name" id="name" value="" />
+          </div>
+          <label for="barber" class="title"> </label>
+          <h3 class="titleIndex">Escolha seu corte:</h3>
+          <br />
+          <div class="checkbox">
+            <div class="cortes">
+              <input
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber1"
+                value="Combo cabelo e barba *R$50,00*"
+              />
+              <label for="barber1">Combo cabelo e barba R$50,00</label> <br />
+            </div>
+            <div class="cortes">
+              <input
+                class="barberInput"
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber2"
+                value="Máquina *R$25,00*"
+              />
+              <label for="barber2">Máquina R$25,00</label> <br />
+            </div>
+            <div class="cortes">
+              <input
+                class="barberInput"
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber3"
+                value="Tesoura *R$30,00*"
+              />
+              <label for="barber3">Tesoura R$30,00</label> <br />
+            </div>
+            <div class="cortes">
+              <input
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber4"
+                value="Sobrancelha *R$10,00*"
+              />
+              <label for="barber4">Sobrancelha R$10,00</label> <br />
+            </div>
+            <div class="cortes">
+              <input
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber5"
+                value="Barba *R$30,00*"
+              />
+              <label for="barber5">Barba R$30,00</label> <br />
+            </div>
+            <div class="cortes">
+              <input
+                type="checkbox"
+                name="barber"
+                class="barberInput"
+                id="barber6"
+                value="Degradê *R$30,00*"
+              />
+              <label for="barber6">Degradê R$30,00</label> <br />
+            </div>
+            <br />
+            <br />
+            <h3 class="titleIndexTwo">Escolha seu barbeiro</h3>
+
+            <label for="escolha"></label>
+            <select required name="escolha" id="escolha">
+              <option value="" selected>Selecione uma opção</option>
+              <option value="*Barber 1*">Barber 1</option>
+              <option value="*Barber 2*">Barber 2</option>
+              <option value="*Qualquer*">Qualquer</option>
+            </select>
+          </div>
+
+          <br />
+          <div class="agenda">
+            <label for="date">Selecione uma data</label><br />
+            <input required type="date" name="date" id="date" />
+            <br />
+            <div class="horarioAtendimento">
+
+              <h3  style="text-decoration: underline;" class="">Horários de Atendimento</h3>
+              <h3>Segunda - Sábado</h3>
+              <h3 class="">09:00 - 20:00</h3>
+            </div>
+
+            <label for="time">Selecione um horário</label><br />
+            <input required type="time" name="horario" id="horario" />
+          </div>
+
+          <div class="buttons-main">
+            <div class="buttons">
+              <button type="submit">Enviar agendamento</button>
+            </div>
+          </div>
+        </form>
+        <div class="retorno">
+          <div class="buttons-main">
+            <div class="buttonRetorno">
+              <a href="./index.html">
+                <button type="submit">Voltar ao início</button>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="created">
+            <h1>
+              Desenvolvido por
+              <a href="https://www.instagram.com/_christianmedeiros">@Medeiroscode</a>
+            </h1>
+          </div>
+          <div class="redes">
+            <a href="https://wa.me/5551997811832">
+              <img src="./img/whats.svg" alt="whatssApp da barbearia" />
+            </a>
+            <a href="https://www.instagram.com/_christianmedeiros">
+              <img src="./img/insta.svg" alt="inatgram da barbearia" />
+            </a>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

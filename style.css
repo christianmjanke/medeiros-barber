@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #1b723d;
+  color: #fdd6d6;
+  font-family: "Poppins", sans-serif;
+}
+
+#geral2 {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.container-header {
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.text-header {
+  font-size: 75%;
+}
+.main {
+  padding: 0 2%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8em;
+}
+.text-main-one {
+  font-size: 80%;
+}
+
+.text-main-two {
+  padding: 2% 0;
+  font-size: 80%;
+}
+
+.buttons-main button {
+  cursor: pointer;
+  padding: 1em;
+  border: 2px solid #1b723d;
+  border-radius: 100px;
+  background-color: #fdd6d6;
+  color: #1b723d;
+  font-weight: 550;
+}
+button {
+  padding: 200px;
+}
+section {
+  padding: 2%;
+}
+
+.text-pictures {
+  padding: 2% 0;
+}
+
+.pictures {
+  flex-wrap: wrap;
+}
+.pictures img {
+  border-radius: 3%;
+  width: 100%;
+  padding: 2% 0;
+}
+
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  0 2%;
+  margin-bottom: 2%;
+}
+
+.created {
+  font-size: 0.4em;
+}
+
+.created a{
+  text-decoration: underline;
+}
+a {
+  text-decoration: none;
+}
+.redes img {
+  cursor: pointer;
+  width: 2.3em;
+}
+
+
+
+@media (min-width: 500px) {
+  #geral2 {
+    max-width: 50em;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+  .pictures{
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
+
+  .pictures img{
+    width: 20em;
+  }
+
+}
+
+
+
+
+  
